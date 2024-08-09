@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const apikey = 'dc1cbeb4e5848238bdec8c7f80736fb6';
-    const city = "Sundargarh";
+    const city = "Cuttack";
     const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apikey}`;
 
     function fetchWeather() {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const cityName = data.name;
         const weatherTitle = document.querySelector('#weather h1');
-        weatherTitle.textContent = `weather in ${cityName}`;
+        weatherTitle.textContent = `Weather in ${cityName}`;
     }
 
     fetchWeather();
