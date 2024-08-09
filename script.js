@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const apikey = 'dc1cbeb4e5848238bdec8c7f80736fb6';
-    const city = "Cuttack";
+    const city = "Sundargarh";
     const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apikey}`;
 
     function fetchWeather() {
